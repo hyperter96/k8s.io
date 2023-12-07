@@ -1,6 +1,6 @@
 // This is a generated file. Do not edit directly.
 
-module k8s.io/api
+module github.com/hyperter96/k8s.io/api
 
 go 1.19
 
@@ -34,5 +34,3 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
-
-replace k8s.io/apimachinery => github.com/hyperter96/k8s.io/apimachinery v0.0.0-20231207091552-0bc7cce3207a
