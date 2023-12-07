@@ -1,6 +1,6 @@
 // This is a generated file. Do not edit directly.
 
-module k8s.io/apimachinery
+module github.com/hyperter96/k8s.io/apimachinery
 
 go 1.19
 
@@ -22,6 +22,7 @@ require (
 	golang.org/x/net v0.17.0
 	google.golang.org/protobuf v1.31.0
 	gopkg.in/inf.v0 v0.9.1
+	k8s.io/apimachinery v0.0.0-00010101000000-000000000000
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/kube-openapi v0.0.0-20230717233707-2695361300d9
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
@@ -48,4 +49,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace k8s.io/apimachinery => github.com/hyperter96/k8s.io/apimachinery v0.0.0-20231207091552-0bc7cce3207a
+replace k8s.io/apimachinery => github.com/hyperter96/k8s.io/apimachinery v0.0.0-20231207094858-be349b2362a6
